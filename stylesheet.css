@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App_click Students Portal</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #76a3d6;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section.contact {
+            padding: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #ce5117;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        section.footer {
+            background-color: #011a36;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section.footer h3 {
+            color: white;
+        }
+
+        section.footer p {
+            color: white;
+        }
+
+         section button {
+            background-color: #ce5117;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="home.html">Go back to the Home Page</a>
+    <h1>App_click Students Portal</h1>
+    <img src="contact app click.jpeg" alt="App_click Logo" width="800" height="400">
+    <h2>Contact Us</h2>
+  </header>
+  <section id="contact" class="contact">
+    <h2>Contact Information</h2>
+    <p>If you have any questions or need assistance, please feel free to reach out to us:</p>
+      
+    <form id="Contact Form">
+
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        
+        <button type="submit">Submit</button>
+
+      </form>
+
+    </section>
+    <section id="contact" class="footer">
+        <h3>App_click Students Portal</h3>
+        <strong><p>Get Certified & Land Your Dream Job</p></strong>
+        <div class="footer-links">
+            <button><a href="index.html">Home</a></button>
+            <button><a href="student data.html">Student Data</a></button>
+            <button><a href="contact.html">Contact</a></button>
+        </div>
+        <p>&copy; 2026 App_click Students Portal. All rights reserved.</p>
+</body>
+</html>
